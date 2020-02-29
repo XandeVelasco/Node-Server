@@ -1,0 +1,21 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "servidor de node com javascript",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consolidate": "^0.15.1",
+    "express": "^4.17.1",
+    "express-layout": "^0.1.0",
+    "nodemon": "^2.0.2",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "ligar",
+    "start": "node server.js"
+  },
+  "author": "xandeletro",
+  "license": "ISC"
+}

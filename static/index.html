@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>titulo</title>
+        <meta name="description" content="Formulários">
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <form name="forml" method="post" action="/teste">
+            Nome: <input type="text" name="nome" /><br/>
+            Senha: <input type="password" name="password" /><br/>
+            Sexo: <input type="radio" name="sexo" value="M" />M
+                   <input type="radio" name="sexo" value="F" />F<br/>
+             E-mail: <input type="email" name="usermail" /> <br/>
+            Assunto: <input type="text" text="texto" ><br/>
+            Curso: <input list="Jogos Digitais" name="Jogos Digitais" /><br/>
+                   <datalist id="Jogos Digitais">
+                       <option value="Programação">
+                       <option value="Audio programação">
+                       <option value="Sistemas">
+                       <option value="Conexões">
+                       <option value="Artes">
+                       <option value="HTML">
+                       <option value="jAVA">
+                   </datalist>
+            Mensagem:<br/>
+            <textarea rows="8" cols="70" required="required"></textarea><br/>
+            <input type="submit" value="Submit" />
+        </form>
+
+        <h1>FALTA RETORNO DO FORMULÁRIO</h1>
+    </body>
+</html>
